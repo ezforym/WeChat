@@ -1,0 +1,20 @@
+package ysg.weixinutils.response;
+
+/** 
+ * “Ù¿÷œ˚œ¢ 
+ *  
+ * @author —ÓΩ®∂¨ 
+ * @date 2013-09-10 
+ */  
+public class MusicMessage extends BaseMessage {  
+    // “Ù¿÷  
+    private Music Music;  
+  
+    public Music getMusic() {  
+        return Music;  
+    }  
+  
+    public void setMusic(Music music) {  
+        Music = music;  
+    }  
+}  
